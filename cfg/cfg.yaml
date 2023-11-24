@@ -1,14 +1,14 @@
-model_name: "yolov8"
-model_path: "/home/visio-ai/Desktop/model_comparison/weights/face_and_plate.pt"
-image_path: "/home/visio-ai/Desktop/model_comparison/ground_truth/images"
-project_name: "face-and-plate-model-x"
-project_folder_name: "face-and-plate"
-conf_thresh: 0.5
+model_name: "yolov8" # or yolov5
+model_path: "example_model.pt"
+image_path: "/images"
+project_name: "example-model-v-x"
+project_folder_name: "example-model"
+conf_thresh: 0.5 
 write_results: False
-calculate_map: True
+calculate_map: True 
 image_size: 1280
-annotation_path: "/home/visio-ai/Desktop/model_comparison/ground_truth/labels"
-yaml_path: "/home/visio-ai/Desktop/model_comparison/cfg/face_and_plate.yaml"
+annotation_path: "/ground_truth/labels"
+yaml_path: "/cfg/example.yaml"
 act_mask: False
-task_mode: "detection"
+task_mode: "detection" # or segmentation
 verbose: True
