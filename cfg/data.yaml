@@ -1,0 +1,13 @@
+# This is an example dataset yaml which's used for training a yolo model.
+
+# Data paths
+train:
+val:
+test:
+
+# Number of classes
+nc:
+
+# Class names
+names:
+
